@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <p id="home" class="scorebox">0</p>
+                <button onclick="single()" class="btn">+1</button>
+                <button onclick="double()" class="btn">+2</button>
+                <button onclick="thrible()" class="btn">+3</button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <p id="guest" class="scorebox">0</p>
+                <button onclick="gsingle()" class="btn">+1</button>
+                <button onclick="gdouble()" class="btn">+2</button>
+                <button onclick="gthrible()" class="btn">+3</button>
+            </div>
+        </div>
+        <div class="reset-wrapper">
+            <button id="reset" onclick="reset()">Reset</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
